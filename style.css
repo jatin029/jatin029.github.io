@@ -1,251 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Story+Script&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
-    font-family: poppins;
+    margin: 0px;
+    padding: 0px;
 }
 
+.briefintro {
+    font-family: Story Script;
+    font-size: 50px;
+    color: rgb(133, 222, 222);
+    text-align: center;
+    height: 20vh;
+}
+
+.nametwo {
+    color: rgb(171, 192, 192);
+}
+
+.mypfp {
+    height: 150px;
+    border: 1px solid rgb(173, 225, 245);
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    left: 250px;
+}
+
+.in {
+    font-size: 25px;
+    color: rgb(140, 148, 148);
+}
+.img {
+  position: relative;
+  right:10px;
+}
 body {
-    background-color: #1a1a1a;
-    color: white;
+    background-color: #232020;
+    height: 100vh;
+    background-image: url();
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50px;
-    background-color: rgb(242, 111, 242);
-}
-
-
-nav ul {
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 20px;
-    list-style: none;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    color: rgb(173, 25, 75);
-    text-decoration: none;
-    font-size: 1.1rem;
+.buttonthing {
+    text-align: center;
 }
 
 .left {
-    font-size: 2.3rem;
-    color: rgb(0, 0, 0);
-
-}
-
-.firstSection {
-    display: flex;
-    justify-content: space-around;
-    margin: 8px 0;
-    align-items: center;
-}
-
-.firstSection>div {
-    width: 50%;
-}
-
-.leftSection {
-    padding-left: 90px;
-    font-size: 3rem;
-    margin: 10px 0;
-}
-
-.leftSection .btn {
-    background-color: rgb(217, 223, 224);
+    height: 25px;
+        background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(200, 196, 196);
+    border-radius: 12px;
     width: 150px;
-    text-align: center;
-    border: 20px blue;
+    text-align: center; 
+    font-family: Poppins;
+    text-decoration: none;
+}
+
+.right {
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+   border: 1px solid rgb(200, 196, 196);
+    border-radius: 12px;
+    width: 160px;
+    text-align: center; 
+    font-family: Poppins;
+}
+
+.navb {
+    list-style-type: none;
+    font-family: Poppins;
+    color: rgb(164, 237, 255);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
-    cursor: pointer;
-
-}
-
-
-.rightSection img {
-    width: 60%;
-    height: 100%;
-    border-radius: 40px;
-    border: 3px solid rgb(72, 212, 254);
-    margin: 0 100px;
-}
-
-.rightSection img:hover {
-    width: 61%;
-    height: 101%;
-}
-
-span {
-    color: rgb(0, 248, 248);
-}
-
-.secondSection {
-    max-width: 80vw;
-    margin: auto;
-    height: 80vh;
-}
-
-.secondSection .box {
-    background-color: white;
-    width: 80vw;
-    height: 0.1vh;
-    margin: 56px 0;
+    height:10vh;
+    align-items: center;
     display: flex;
-    margin: 30px 0;
+    justify-content: space-evenly;
+    margin: 20px;
 }
 
-.secondSection .vertical {
-    height: 93px;
-    width: 1px;
-    background-color: white;
+.anchor {
+    color: rgb(164, 237, 255);
+    text-decoration: none;
 }
 
-.image-top {
-    width: 24px;
+.name {
+    font-size: 35px;
+    color:rgb(151, 181, 187);
+    font-weight: 1000;
+    padding-right: 500px;
+    font-family: Story Script;
     position: relative;
-    top: -30px;
-    left: -10px;
+    right: 50px;
+    text-decoration: underline rgb(7, 36, 255);
 }
-
-.vertical-title {
+.icon{
+    border: 1px solid rgb(255, 255, 255);
+    height:40px;
     position: relative;
-    top: 51px;
-    width: 150px;
-    left: 150px;
+    left: 590px;
+    top: 10px;
 }
 
-.vertical-desc {
-    top: 65px;
-    position: relative;
-    /* left:500px; */
+header{
+    height: 85vh;
 }
-
-.v1 {
-    position: relative;
-       left: -3px;
-    top: 87px;
-}
-
-.v2 {
-    position: relative;
-        left: -3px;
-    top: 87px;
-}
-
-.v3 {
-    position: relative;
-       left: -3px;
-    top: 87px;
-}
-
-.v4 {
-    position: relative;
-       left: -3px;
-    top: 87px;
-}
-
-.v5 {
-    position: relative;
-       left: -3px;
-    top: 87px;
-}
-
-
-.text-gray {
-    color: gray;
-}
-
-.vertical0 {
-    position: relative;
-    width: 1px;
-    left: 151px;
-    height: 93px;
-    background-color: white;
-    top: -162px;
-}
-
-.vertical1 {
-    position: relative;
-    height: 93px;
-    left: 453px;
-    width: 1px;
-    background-color: white;
-    top: -255px;
-}
-
-.vertical2 {
-    position: relative;
-    height: 93px;
-    left: 306px;
-    top: -348px;
-    width: 1px;
-    background-color: white;
-}
-
-.vertical3 {
-    position: relative;
-    height: 93px;
-    left: 750px;
-    top: -441px;
-    width: 1px;
-    background-color: white;
-}
-
-.vertical4 {
-    position: relative;
-    height: 93px;
-    left: 600px;
-    top: -534px;
-    width: 1px;
-    background-color: white;
-}
-
-.vertical5 {
-    position: relative;
-    height: 93px;
-    left: 900px;
-    top: -629px;
-    width: 1px;
-    background-color: white;
-}
-
-
-.thirdSection {
-    max-width: 80vw;
-    margin: auto;
-    height: 80vh;
-}
-
 
 footer {
+    color: white;
+    background-color:black;
+    height: auto;
+    display: flex;
     text-align: center;
-    color: gray;
-    display: none;
+    justify-content: center;
+    font-family: Oswald;
 }
-
-hr {
-    color: aqua;
-    background-color: red;
-    margin: 50px;
-}
-
-
-
