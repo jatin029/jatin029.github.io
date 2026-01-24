@@ -1,3 +1,2 @@
-var a = 
- console.log(a);
- 
+let jatin = "genius"
+console.log(jatin);
